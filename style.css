@@ -1,0 +1,36 @@
+/* iphone width 390px - 480px*/
+
+html {
+  font-size: calc(1vw + 52.1px);
+}
+
+body {
+  margin: 0;
+}
+
+.logo {
+  max-width: 20%;
+  margin: 1rem 0 .5rem 1rem;
+}
+
+h1 {
+  margin: 0 auto .8rem;
+  text-align: center;
+  width: 80%;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.creative {
+  color: midnightblue;
+}
+
+.left-card {
+  width: 5.37rem;
+}
+
+/* .tile-image {
+  
+  width: 5.37rem;
+  margin-left: 0 auto;
+} */
