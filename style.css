@@ -1,7 +1,7 @@
 /* iphone width 390px - 480px*/
 
 html {
-  font-size: calc(1vw + 52.1px);
+  font-size: 10vw;
 }
 
 body {
@@ -9,8 +9,8 @@ body {
 }
 
 .logo {
-  
-  margin: 1rem 0 .5rem 1rem;
+  width: 2rem;
+  margin: 8% 0 .5rem 9%;
 }
 
 h1 {
@@ -25,11 +25,34 @@ h1 {
   color: midnightblue;
 }
 
-.left-card {
-  width: 5.37rem;
+.tile-image {
+  width: calc(.82 * 100vw);
+  margin-left: calc(.09 * 100vw);
+  margin-right: calc(.09 * 100vw);
 }
 
-/* .tile-image {
-  width: 5.37rem;
-  margin-left: 0 auto;
-} */
+.card-title {
+  font-size: .5rem;
+  margin: .1rem calc(.09 * 100vw) .25rem calc(.09 * 100vw);
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: calc(.35rem + .8vw);
+  margin: 0 calc(.09 * 100vw) .8rem calc(.09 * 100vw);
+}
+
+.right-card > p {
+  font-size: calc(.35rem + .8vw);
+  margin: 0 calc(.09 * 100vw) .8rem calc(.09 * 100vw);
+}
+
+footer {
+  text-align: right;
+}
+
+footer > p {
+  color: midnightblue;
+  font-size: calc(.30rem + 1vw);
+  margin-right: calc(.09 * 100vw); 
+}
