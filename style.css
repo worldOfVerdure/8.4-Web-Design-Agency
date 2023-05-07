@@ -111,7 +111,7 @@ footer > p {
   }
 }
 
-@media screen and (orientation: landscape) and (max-width: 680px) {
+@media screen and (orientation: landscape) and (max-width: 900px) {
   
   body {
     background-color: pink;
