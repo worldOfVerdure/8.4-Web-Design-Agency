@@ -111,7 +111,7 @@ footer > p {
   }
 }
 
-@media (orientation: landscape) {
+@media screen and (orientation: landscape) {
   
   body {
     background-color: moccasin;
