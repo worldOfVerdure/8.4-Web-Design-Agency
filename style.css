@@ -110,3 +110,7 @@ footer > p {
     font-size: calc(.02 * 65vw);
   }
 }
+
+@media (orientation: landscape) and (max-width: 680px) {
+  background-color: black;
+}
