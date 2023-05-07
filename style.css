@@ -111,8 +111,19 @@ footer > p {
   }
 }
 
-@media (orientation: landscape) and (max-width: 680px) {
+@media (orientation: landscape) {
+  
   body {
-    background-color: black;
+    background-color: moccasin;
+  }
+  
+  h1 {
+    height: 30%;
+  }
+
+  footer {
+    position: absolute;
+    right: 3rem;
+    bottom: 1rem;
   }
 }
