@@ -1,7 +1,7 @@
 /* iphone width 390px - 480px*/
 
 html {
-  font-size: 10vw;
+  font-size: 62.5%;
 }
 
 body {
@@ -9,15 +9,14 @@ body {
 }
 
 .logo {
-  width: 2rem;
-  margin: 8% 0 .5rem 9%;
+  width: calc(9rem + 9vw);
+  margin: 8% 0 calc(3rem + 5vw) 9%;
 }
 
 h1 {
-  margin: 0 auto .8rem;
+  margin: 0 9% 2.5rem 9%;
   text-align: center;
-  width: 80%;
-  font-size: 1rem;
+  font-size: 5.5rem;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -26,24 +25,19 @@ h1 {
 }
 
 .tile-image {
-  width: calc(.82 * 100vw);
-  margin-left: calc(.09 * 100vw);
-  margin-right: calc(.09 * 100vw);
+  width: 82%;
+  margin-left: 9%;
+  margin-right: 9%;
 }
 
 .card-title {
-  font-size: .5rem;
-  margin: .1rem calc(.09 * 100vw) .25rem calc(.09 * 100vw);
+  font-size: 3.3rem;
+  margin: 1rem 9% 2.3rem 9%;
   font-weight: bold;
 }
 
 .card-text {
-  font-size: calc(.35rem + .8vw);
-  margin: 0 calc(.09 * 100vw) .8rem calc(.09 * 100vw);
-}
-
-.right-card > p {
-  font-size: calc(.35rem + .8vw);
+  font-size: 2rem;
   margin: 0 calc(.09 * 100vw) .8rem calc(.09 * 100vw);
 }
 
@@ -53,6 +47,66 @@ footer {
 
 footer > p {
   color: midnightblue;
-  font-size: calc(.30rem + 1vw);
+  font-size: 1.7rem;;
   margin-right: calc(.09 * 100vw); 
+}
+
+.left-card > p {
+  margin-bottom: 4.5rem;
+}
+
+@media (min-width: 680px) {
+  .logo {
+    width: calc(10rem + 13vw);
+    margin: 3.8rem 0 3rem 4%;
+  }
+
+  h1 {
+    width: 55%;
+    text-align: left;
+    font-size: clamp(6rem, calc(5.5rem + 10vw), 7.7rem);
+    margin: 0 0 3rem calc(.04 * 100vw);
+  }
+
+  .left-card {
+    float: left;
+    width: 50%;
+  }
+
+  .right-card {
+    float: right;
+    width: 50%;
+  }
+
+  .tile-image {
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin-left: 4%;
+    margin-right: 3%;
+  }
+
+  .card-title {
+    margin-top: 0;
+    text-align: left;
+    font-size: calc(1.5rem + 1vw);
+  }
+
+  .card-text {
+    font-size: calc(2.3rem +3vw);
+    text-align: left;
+  }
+
+  footer {
+    clear: both;
+  }
+
+  footer > p {
+    margin-right: 4%;
+    position: absolute;
+    right: 3rem;
+    bottom: 1rem;
+    text-align: right;
+    font-size: calc(.02 * 65vw);
+  }
 }
